@@ -1,21 +1,16 @@
-# vuetest
+# webpack-pages
 
-> A Vue.js project
+> 基于vue-cli的多页配置
 
-## Build Setup
+## Run Setup
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 看看build/alias.js, build/repl.js文件，也是打包的入口
 
-# build for production with minification
-npm run build
+# 进入人机交互界面
+yarn run repl
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
