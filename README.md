@@ -13,4 +13,7 @@ yarn
 # 进入人机交互界面
 yarn run repl
 
+# 输入all, 则进行多页打包
+http://localhost:8080/module/signup.html 
+http://localhost:8080/module/checkin.html 
 ```
